@@ -1,4 +1,14 @@
-"scripts": {
-  "start": "supervisor server.js"
-},
-"main": "server.js"
+{
+  "name": "speech-calendar",
+  "version": "0.0.1",
+  "description": "Speech Calendar webapp",
+  "author": "Luca Paganelli <luca.paga@libero.it>",
+  "scripts": {
+    "__start": "supervisor server.js",
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
