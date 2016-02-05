@@ -4,8 +4,8 @@
   "description": "Speech Calendar webapp",
   "author": "Luca Paganelli <luca.paga@libero.it>",
   "scripts": {
-    "__start": "supervisor server.js",
-    "start": "node server.js"
+    "start": "supervisor server.js",
+    "__start": "node server.js"
   },
   "main": "server.js",
   "dependencies": {
